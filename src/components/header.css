@@ -1,0 +1,23 @@
+.headers{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(39, 141, 85);
+    position: fixed;
+    
+}
+.hlist{
+    list-style-type: none;
+    display: flex;
+    margin-right: 35px;
+}
+.home{
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+}
+.home:hover{
+    background-color: red;
+    font-size: 20px;
+}
