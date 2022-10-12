@@ -8,8 +8,9 @@ function Header() {
     <div className='headers'>
         <img src={event} style={{width:'90px',height:'90px',marginLeft:'15px'}}alt="event"/>
         <ul className='hlist'>
-            <li ><a className='home' href="./">HOME</a></li>
-            <li><Link to='/About' className='home'>About</Link></li>
+            <li><Link to='/About' className='home'>HOME</Link></li>
+            <li ><a className='home' href="./">ABOUT</a></li>
+            
         </ul>
     </div>
   )

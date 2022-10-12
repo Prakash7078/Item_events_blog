@@ -4,9 +4,8 @@ import './About.css'
 function About() {
   return (
     <div className='abouts'>
-        <h1>Ponduri Chandra Prakash Babu</h1>
-        <h1>20BQ1A05J5</h1>
-        <h1>3-CSE-D</h1>
+        <h1>Welcome to my blog!</h1>
+        
     </div>
   )
 }
