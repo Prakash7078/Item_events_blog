@@ -18,6 +18,6 @@
     margin: 5px;
 }
 .home:hover{
-    background-color: red;
-    font-size: 20px;
+    color: brown;
+    font-size: 18px;
 }

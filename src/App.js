@@ -4,6 +4,7 @@ import { Route, Routes,BrowserRouter } from 'react-router-dom'
 import About from './components/About'
 import Asider from './components/Asider'
 import './App.css'
+import Footer from './components/Footer'
 function App() {
   return (
     <div className='container'>
@@ -13,6 +14,7 @@ function App() {
           <Route path='/' element={<Asider/>}/>
           <Route path='/About' element={<About/>}/>
         </Routes>
+        <Footer/>
       </BrowserRouter>
     </div>
   )
